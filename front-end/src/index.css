@@ -1,0 +1,29 @@
+.container{
+    background-image: url('/public/images/examBack2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:500px;
+    background-position:unset;
+}
+.optionBody{
+    margin-top:30%;
+    width:500px;
+    margin:auto;
+    text-align: center;
+    padding-top:15%;
+}
+nav{
+    height:80px;
+    background-image: linear-gradient(#f0f2f0,#000c40);
+    text-align: center;
+
+}
+nav h1{
+    padding-top: 20px;
+    margin-top:0px;
+}
+marquee{
+    color:red;
+    font-weight:800;
+    margin-top:10px;
+}
