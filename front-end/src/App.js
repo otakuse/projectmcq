@@ -6,6 +6,8 @@ import QuestionBank from './components/QuestionBank';
 import './index.css'
 import ExamQuestion from './components/ExamQuestion';
 import Admin from './Admin';
+import Student from './Student';
+import McqTest from './components/McqTest';
 
 function App() {
     return (
@@ -30,6 +32,12 @@ function App() {
 
                         <Route exact path="/questionBank">
                                 <QuestionBank/>
+                        </Route>
+                        <Route exact path="/student">
+                            <Student/>
+                        </Route>
+                        <Route exact path="/mcqTest">
+                            <McqTest/>
                         </Route>
 
                     </Switch>

@@ -5,20 +5,14 @@
     min-height:500px;
     background-position:unset;
 }
-.optionBody{
-    margin-top:30%;
-    width:500px;
-    margin:auto;
-    text-align: center;
-    padding-top:15%;
-}
+
 nav{
     height:80px;
     background-image: linear-gradient(#f0f2f0,#000c40);
     text-align: center;
 
 }
-nav h1{
+ nav h1{
     padding-top: 20px;
     margin-top:0px;
 }
@@ -26,4 +20,50 @@ marquee{
     color:red;
     font-weight:800;
     margin-top:10px;
+}
+
+.testlist{
+    background-color:floralwhite;
+    
+    text-align: left;
+    
+    
+
+}
+.adi{
+    padding: 20px 10px 5px;
+    
+}
+
+.optionBody{
+    
+    
+    margin:auto;
+    max-width:500px;
+    padding-top:5%;
+    
+}
+#homeCs{
+    padding-top:30%;
+    margin:auto;
+    text-align: center;
+}
+.regCs{
+    margin:auto;
+    max-width:500px;
+    padding-top:35%;
+
+}
+.tableCs{
+    width: 500px;
+    color:black;
+    border-collapse: collapse;
+    text-align:left;
+}
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  background-color: rgb(205, 235, 253);
 }
