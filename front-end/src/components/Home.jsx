@@ -3,12 +3,12 @@ import {Link} from "react-router-dom";
 import './registration.css'
 function Home() {
     return (
-        <div>
+        <div id='homeCs'>
             
             <Link to="/admin">
-            <button>ADMIN</button></Link>
+            <button >ADMIN</button></Link>
             <Link to="/student">
-            <button>STUDENT</button></Link>
+            <button >STUDENT</button></Link>
             
         </div>
     )

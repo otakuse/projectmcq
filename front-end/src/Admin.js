@@ -2,12 +2,12 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 function Admin() {
     return (
-        <div>
+        <div id='homeCs'>
             <Link to="/registration">
-                <button>REGISTRATION</button>
+                <button >REGISTRATION</button>
             </Link>
             <Link to="/questionbank">
-                <button>QUESTIONS</button>
+                <button >QUESTIONS</button>
             </Link>
         </div>
     )

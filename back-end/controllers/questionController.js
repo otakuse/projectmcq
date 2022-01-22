@@ -5,7 +5,7 @@ const showQuestionList = (req, res) => {
             res.json(err);
         } else {
             console.log(result);
-            res.json({data:result});
+            res.json({status:'200',result});
         }
     });
 }

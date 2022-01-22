@@ -37,19 +37,19 @@ function Registration() {
     }
     return (
             <Link to="/registration">
-                <div>
-                <form action="">
-                    <label htmlFor="name">STUDENT NAME:</label><br />
-                    <input type="text" id="name" name="name" onChange={nameChange}/><br /><br />
+                <div className='regCs'>
+                <form id='new' action="">
+                    <label id='regLab' htmlFor="name">STUDENT NAME:</label><br />
+                    <input id='regId' type="text" id="name" name="name" onChange={nameChange}/><br /><br />
 
-                    <label htmlFor="mobile">MOBILE:</label><br />
-                    <input type="number" name="mobile" id="mobile" onChange={mobileChange}/><br /><br />
+                    <label id='regLab' htmlFor="mobile">MOBILE:</label><br />
+                    <input id='regId' type="number" name="mobile" id="mobile" onChange={mobileChange}/><br /><br />
 
-                    <label htmlFor="enroll_no">ENROLL_NUMBER:</label><br />
-                    <input type="text" name="enroll_no" id="enroll_no" onChange={enrollChange}/><br /><br />
+                    <label id='regLab' htmlFor="enroll_no">ENROLL_NUMBER:</label><br />
+                    <input id='regId' type="text" name="enroll_no" id="enroll_no" onChange={enrollChange}/><br /><br />
 
-                    <label htmlFor="email">EMAIL:</label><br />
-                    <input type="email" name="email" id="email" onChange={emailChange}/><br /><br />
+                    <label id='regLab' htmlFor="email">EMAIL:</label><br />
+                    <input id='regId' type="email" name="email" id="email" onChange={emailChange}/><br /><br />
 
                     <button onClick={saveData}>REGISTER</button>
                 </form>
